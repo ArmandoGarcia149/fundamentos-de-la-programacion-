@@ -1,0 +1,18 @@
+Proceso factorialnumero 
+	factorial<-1   
+	N<-0    
+	num<-0    	
+	Escribir 'ingrese un numero'
+	Leer num
+	
+	si num<-0 Entonces
+		Escribir 'el factorial de 0 es: 1':
+	Sino
+	
+	   Para N<- 1 hasta num Hacer
+		   factorial<- factorial*N:
+	   FinPara
+   FinSi
+   
+   escribir 'el factorial de ',num,' es ' ,factorial:
+FinProceso
